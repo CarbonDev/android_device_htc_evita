@@ -32,7 +32,10 @@ TARGET_BOOTLOADER_BOARD_NAME := evita
 
 # Kernel
 TARGET_KERNEL_CONFIG := elite_defconfig
+
+#4.6
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
+TARGET_GCC_VERSION := 4.6
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/evita/bluetooth
